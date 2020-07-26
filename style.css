@@ -1,0 +1,153 @@
+
+  .at-item {
+	width: auto;
+	height: auto;
+	
+	animation-name: scale-up-center;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+  }
+  @keyframes scale-up-center {
+	0%{
+	  -webkit-transform: scale(.2);
+	  transform: scale(.2);
+	}
+	100%{
+	  -webkit-transform: scale(1);
+	  transform: scale(1);
+	}
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background: rgb(130,40,26);
+background: linear-gradient(90deg, rgba(130,40,26,0.8575805322128851) 4%, rgba(190,53,32,0.8575805322128851) 12%, rgba(9,138,162,0.8099614845938375) 38%, rgba(95,9,121,0.76234243697479) 62%, rgba(255,0,112,1) 86%, rgba(213,3,95,1) 94%);
+    height: 100%;
+    background-color: #111;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 50;
+    text-align: center;
+    margin: 1rem 0 3rem;
+    font-family: 'Hind', sans-serif;
+ 
+    color: #b3b5c33b;
+    text-shadow: 1px 1px 4px black;
+}
+
+.title{
+	color: rgba(171, 212, 171, 0.274)157, 160, 157);
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #ebe8e83d;
+	margin-bottom: 1.5rem;
+	
+}
+.item_input {
+    background: none;
+    outline: none;
+    border: none;
+    color: #ffe000;
+    font-size: 1.4rem;
+    width: auto;
+    margin: auto;width: auto;
+	height: auto;
+	
+	animation-name: scale-up-center;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+  }
+  @keyframes scale-up-center {
+	0%{
+	  -webkit-transform: scale(.2);
+	  transform: scale(.2);
+	}
+	100%{
+	  -webkit-transform: scale(1);
+	  transform: scale(1);
+	}
+  
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(82, 134, 14);
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: #E00;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}
